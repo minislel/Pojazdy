@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\chainmap\\Vehicles\\",
+  "WorkspaceRootPath": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\Vehicles\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|c:\\users\\skutecznieuse\\desktop\\studia\\chainmap\\vehicles\\vehicles\\abstractvehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|c:\\users\\skutecznieuse\\desktop\\studia\\vehicles\\vehicles\\amphibia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|solutionrelative:vehicles\\amphibia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|c:\\users\\skutecznieuse\\desktop\\studia\\vehicles\\vehicles\\iwater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|solutionrelative:vehicles\\iwater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|c:\\users\\skutecznieuse\\desktop\\studia\\vehicles\\vehicles\\abstractvehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|solutionrelative:vehicles\\abstractvehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|c:\\users\\skutecznieuse\\desktop\\studia\\chainmap\\vehicles\\vehicles\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|solutionrelative:vehicles\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|c:\\users\\skutecznieuse\\desktop\\studia\\chainmap\\vehicles\\vehicles\\ienginevehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|c:\\users\\skutecznieuse\\desktop\\studia\\vehicles\\vehicles\\ienginevehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|solutionrelative:vehicles\\ienginevehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|c:\\users\\skutecznieuse\\desktop\\studia\\chainmap\\vehicles\\vehicles\\iairborne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|c:\\users\\skutecznieuse\\desktop\\studia\\vehicles\\vehicles\\iairborne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|solutionrelative:vehicles\\iairborne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|c:\\users\\skutecznieuse\\desktop\\studia\\chainmap\\vehicles\\vehicles\\iland.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|c:\\users\\skutecznieuse\\desktop\\studia\\vehicles\\vehicles\\iland.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|solutionrelative:vehicles\\iland.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|c:\\users\\skutecznieuse\\desktop\\studia\\chainmap\\vehicles\\vehicles\\iwater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBF04DCA-2866-415E-90C9-B273FD53DA4B}|Vehicles\\Vehicles.csproj|solutionrelative:vehicles\\iwater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,77 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 178,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\chainmap\\Vehicles\\Vehicles\\Class1.cs",
-              "RelativeDocumentMoniker": "Vehicles\\Class1.cs",
-              "ToolTip": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\chainmap\\Vehicles\\Vehicles\\Class1.cs",
-              "RelativeToolTip": "Vehicles\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Amphibia.cs",
+              "DocumentMoniker": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\Vehicles\\Vehicles\\Amphibia.cs",
+              "RelativeDocumentMoniker": "Vehicles\\Amphibia.cs",
+              "ToolTip": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\Vehicles\\Vehicles\\Amphibia.cs",
+              "RelativeToolTip": "Vehicles\\Amphibia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T16:56:32.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IEngineVehicle.cs",
-              "DocumentMoniker": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\chainmap\\Vehicles\\Vehicles\\IEngineVehicle.cs",
-              "RelativeDocumentMoniker": "Vehicles\\IEngineVehicle.cs",
-              "ToolTip": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\chainmap\\Vehicles\\Vehicles\\IEngineVehicle.cs",
-              "RelativeToolTip": "Vehicles\\IEngineVehicle.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T16:40:41.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IWater.cs",
-              "DocumentMoniker": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\chainmap\\Vehicles\\Vehicles\\IWater.cs",
-              "RelativeDocumentMoniker": "Vehicles\\IWater.cs",
-              "ToolTip": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\chainmap\\Vehicles\\Vehicles\\IWater.cs",
-              "RelativeToolTip": "Vehicles\\IWater.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T14:41:11.963Z"
+              "WhenOpened": "2024-05-24T16:56:32.181Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IAirborne.cs",
-              "DocumentMoniker": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\chainmap\\Vehicles\\Vehicles\\IAirborne.cs",
-              "RelativeDocumentMoniker": "Vehicles\\IAirborne.cs",
-              "ToolTip": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\chainmap\\Vehicles\\Vehicles\\IAirborne.cs",
-              "RelativeToolTip": "Vehicles\\IAirborne.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Title": "IEngineVehicle.cs",
+              "DocumentMoniker": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\Vehicles\\Vehicles\\IEngineVehicle.cs",
+              "RelativeDocumentMoniker": "Vehicles\\IEngineVehicle.cs",
+              "ToolTip": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\Vehicles\\Vehicles\\IEngineVehicle.cs",
+              "RelativeToolTip": "Vehicles\\IEngineVehicle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T14:40:29.559Z"
+              "WhenOpened": "2024-05-24T16:40:41.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IWater.cs",
+              "DocumentMoniker": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\Vehicles\\Vehicles\\IWater.cs",
+              "RelativeDocumentMoniker": "Vehicles\\IWater.cs",
+              "ToolTip": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\Vehicles\\Vehicles\\IWater.cs",
+              "RelativeToolTip": "Vehicles\\IWater.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:41:11.963Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ILand.cs",
-              "DocumentMoniker": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\chainmap\\Vehicles\\Vehicles\\ILand.cs",
-              "RelativeDocumentMoniker": "Vehicles\\ILand.cs",
-              "ToolTip": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\chainmap\\Vehicles\\Vehicles\\ILand.cs",
-              "RelativeToolTip": "Vehicles\\ILand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Title": "IAirborne.cs",
+              "DocumentMoniker": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\Vehicles\\Vehicles\\IAirborne.cs",
+              "RelativeDocumentMoniker": "Vehicles\\IAirborne.cs",
+              "ToolTip": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\Vehicles\\Vehicles\\IAirborne.cs",
+              "RelativeToolTip": "Vehicles\\IAirborne.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBkAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T14:39:29.717Z"
+              "WhenOpened": "2024-05-24T14:40:29.559Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "ILand.cs",
+              "DocumentMoniker": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\Vehicles\\Vehicles\\ILand.cs",
+              "RelativeDocumentMoniker": "Vehicles\\ILand.cs",
+              "ToolTip": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\Vehicles\\Vehicles\\ILand.cs",
+              "RelativeToolTip": "Vehicles\\ILand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:39:29.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AbstractVehicle.cs",
-              "DocumentMoniker": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\chainmap\\Vehicles\\Vehicles\\AbstractVehicle.cs",
+              "DocumentMoniker": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\Vehicles\\Vehicles\\AbstractVehicle.cs",
               "RelativeDocumentMoniker": "Vehicles\\AbstractVehicle.cs",
-              "ToolTip": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\chainmap\\Vehicles\\Vehicles\\AbstractVehicle.cs",
+              "ToolTip": "C:\\Users\\SkutecznieUse\\Desktop\\studia\\Vehicles\\Vehicles\\AbstractVehicle.cs",
               "RelativeToolTip": "Vehicles\\AbstractVehicle.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAmwB4AAABFAAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAcwGoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T14:31:05.74Z",
               "EditorCaption": ""

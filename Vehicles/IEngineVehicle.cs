@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Vehicles
 {
-    public abstract class EngineVehicle : AbstractVehicle
+    public interface IEngineVehicle 
     {
-        private EngineType _enginetype;
-        public EngineType EngineType { get { return _enginetype; } set { if (this is IWater) _enginetype = EngineType.Diesel; } }
+        EngineType _engine { get; set; }
+        public virtual EngineType EngineType { get { return _engine; } set { if (this is IWater && this is IEngineVehicle) _engine = EngineType.Diesel; else _engine = value; } }
         public int EnginePower { get; set; } 
 
     }

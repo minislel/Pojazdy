@@ -8,6 +8,18 @@ namespace Vehicles
 {
     internal class Amphibia : AbstractVehicle, IWater, ILand
     {
-        public int buoyancy => throw new NotImplementedException();
+        public int buoyancy { get; private set; }
+
+        public int wheelCount { get; private set; }
+
+        public Amphibia()
+            {
+            
+            
+        }
+
+
     }
+    
+    
 }

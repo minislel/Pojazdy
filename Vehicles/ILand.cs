@@ -8,6 +8,6 @@ namespace Vehicles
 {
     public interface ILand
     {
-        
+        int wheelCount {  get; }    
     }
 }

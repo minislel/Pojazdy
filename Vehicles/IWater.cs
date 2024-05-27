@@ -9,5 +9,6 @@ namespace Vehicles
     public interface IWater
     {
         int buoyancy { get;}
+
     }
 }
