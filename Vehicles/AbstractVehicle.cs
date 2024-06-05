@@ -17,6 +17,7 @@ namespace Vehicles
     public abstract class AbstractVehicle
     {
         private double _speed;
+        private SpeedUnits _units;
         
         public VehicleState State { get { return (Speed!=0 ? VehicleState.Moving : VehicleState.Stationary); } }
         
@@ -34,7 +35,7 @@ namespace Vehicles
             { 
                 return _speed; 
             } 
-            private set 
+            protected set 
             {
                 if (SpeedUnits == SpeedUnits.Knots && value > _waterMaxSpeed)
                 { 
@@ -85,7 +86,55 @@ namespace Vehicles
                 Speed = speed;
             }
         }
-        public SpeedUnits SpeedUnits { get; set; }
+        public SpeedUnits SpeedUnits
+        {
+            get { return _units; }
+            set {
+                if (this is IWater && this is ILand && _units == SpeedUnits.KmH && value == SpeedUnits.Knots)
+                {
+                    _units = value;
+                    _speed = _speed * 0.5399568034557;
+                }
+                else if (this is IWater && this is ILand && _units == SpeedUnits.Knots && value == SpeedUnits.KmH)
+                {
+                    _units = value;
+                    _speed = _speed * 1.852;
+                }
+                else if (this is IAirborne && this is ILand && _units == SpeedUnits.KmH && value == SpeedUnits.Ms)
+                {
+                    _units = value;
+                    _speed = _speed * 0.2777777777778;
+                }
+                else if (this is IAirborne && this is ILand && _units == SpeedUnits.Ms && value == SpeedUnits.KmH)
+                {
+                    _units = value;
+                    _speed = _speed * 3.6;
+                }
+                else if (this is IAirborne && this is IWater && _units == SpeedUnits.Ms && value == SpeedUnits.Knots)
+                {
+                    _units = value;
+                    _speed = _speed * 0.5144444444444;
+                }
+                else if (this is IAirborne && this is IWater && _units == SpeedUnits.Knots && value == SpeedUnits.Ms)
+                {
+                    _units = value;
+                    _speed = _speed * 1.943844492441;
+                }
+                else if (this is IWater && value == SpeedUnits.Knots)
+                {
+                    _units = value;
+                }
+                else if (this is IAirborne && value == SpeedUnits.Ms)
+                {
+                    _units = value;
+                }
+                else if (this is ILand && value == SpeedUnits.KmH)
+                {
+                    _units = value;
+                }
+                else throw new InvalidOperationException();
+            }        
+        }
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
