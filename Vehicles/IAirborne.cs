@@ -9,7 +9,7 @@ namespace Vehicles
     public interface IAirborne
     {
         
-        bool IsInAir { get; set; }
+        bool IsInAir { get; protected set; }
         void TakeOff() 
         {
             if (this is AbstractVehicle vehicle && vehicle.Speed >= 72 && !IsInAir && vehicle.SpeedUnits == SpeedUnits.KmH)

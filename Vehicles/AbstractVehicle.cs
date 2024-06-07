@@ -81,11 +81,13 @@ namespace Vehicles
         }
         public virtual void SetSpeed(double speed)
         {
-            if (this.State == VehicleState.Moving)
+            if (speed > 0)
             { 
                 Speed = speed;
             }
         }
+        public void Accelerate(double increment) => SetSpeed(Speed + increment);
+        public void Decelerate(double decrement) => SetSpeed(Speed - decrement);
         public SpeedUnits SpeedUnits
         {
             get { return _units; }
@@ -144,16 +146,37 @@ namespace Vehicles
             if (this is ILand) sb.Append(" Land Vehicle ");
             if (this is IWater) sb.Append(" Water Vehicle ");
             sb.Append("\nCurrent Environment: ");
-            if (this.SpeedUnits == SpeedUnits.Knots) sb.Append($"Water\n, speed range: {_waterMinSpeed} - {_waterMaxSpeed} Knots");
-            if (this.SpeedUnits == SpeedUnits.KmH) sb.Append($"Land\n, speed range: {_landMinSpeed} - {_landMaxSpeed} Km/H");
-            if (this.SpeedUnits == SpeedUnits.Ms) sb.Append($"Air\n, speed range: {_airMinSpeed} - {_airMaxSpeed} M/s");
-            if (this.State == VehicleState.Moving) sb.Append($"Moving at {Speed} {nameof(this.SpeedUnits)}");
-            else sb.Append("Not moving\n");
-            if (this is IEngineVehicle e) sb.Append($"Engine type: {e.EngineType}, {e.EnginePower}\n");
-            if (this is IWater w) sb.Append($"Buoyancy: {w.buoyancy}\n");
-            if (this is ILand l) sb.Append($"Wheel Count: {l.wheelCount}\n");
+            if (this.SpeedUnits == SpeedUnits.Knots) sb.Append($"Water\nSpeed range: {_waterMinSpeed} - {_waterMaxSpeed} Knots");
+            if (this.SpeedUnits == SpeedUnits.KmH) sb.Append($"Land\nSpeed range: {_landMinSpeed} - {_landMaxSpeed} Km/H");
+            if (this.SpeedUnits == SpeedUnits.Ms) sb.Append($"Air\nSpeed range: {_airMinSpeed} - {_airMaxSpeed} M/s");
+            if (this.State == VehicleState.Moving) sb.Append($"\nMoving at {Speed} {this.SpeedUnits}");
+            else sb.Append("\nNot moving");
+            if (this is IEngineVehicle e) sb.Append($"\nEngine type: {e.EngineType}, {e.EnginePower}HP");
+            if (this is IWater w) sb.Append($"\nBuoyancy: {w.buoyancy}");
+            if (this is ILand l) sb.Append($"\nWheel Count: {l.wheelCount}\n");
 
             return sb.ToString();
+        }
+        public static double ConvertSpeed(double speed, SpeedUnits fromUnit, SpeedUnits toUnit)
+        {
+            if (fromUnit == toUnit)
+                return speed;
+
+            double speedInMs = fromUnit switch
+            {
+                SpeedUnits.KmH => speed / 3.6,
+                SpeedUnits.Knots => speed * 0.514444,
+                SpeedUnits.Ms => speed,
+                _ => throw new ArgumentOutOfRangeException(nameof(fromUnit), fromUnit, null)
+            };
+
+            return toUnit switch
+            {
+                SpeedUnits.KmH => speedInMs * 3.6,
+                SpeedUnits.Knots => speedInMs / 0.514444,
+                SpeedUnits.Ms => speedInMs,
+                _ => throw new ArgumentOutOfRangeException(nameof(toUnit), toUnit, null)
+            };
         }
     }
 }
