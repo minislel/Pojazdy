@@ -5,7 +5,12 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vehicles", "Vehicles\Vehicles.csproj", "{DBF04DCA-2866-415E-90C9-B273FD53DA4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehiclesConsoleApp", "VehiclesConsoleApp\VehiclesConsoleApp.csproj", "{8CA4BBC1-8610-4D53-8499-13EB450F081C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehiclesConsoleApp", "VehiclesConsoleApp\VehiclesConsoleApp.csproj", "{8CA4BBC1-8610-4D53-8499-13EB450F081C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B35F8A20-23E5-4892-B6E7-D254648C8F3E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

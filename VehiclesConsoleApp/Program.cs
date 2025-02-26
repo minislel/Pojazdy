@@ -13,7 +13,7 @@ namespace VehicleApp
             var car = new Car(4, EngineType.Petrol, 150);
             var motorcycle = new Motorcycle(80);
             var motorboat = new Motorboat(5000, 200);
-            var airplane = new Airplane(EngineType.Petrol, 1000, 3); // Adding wheel count for airplane
+            var airplane = new Airplane(EngineType.Petrol, 1000, 3);
             var amphibiousVehicle = new AmphibiousVehicle(4, 3000, EngineType.Diesel, 250);
             var bicycle = new Bicycle();
 
